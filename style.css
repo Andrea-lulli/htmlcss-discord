@@ -14,7 +14,6 @@ header{
 
 }
 
-
 .conteiner{
     margin: auto;
     width: 80%;   
@@ -106,14 +105,15 @@ nav{
 .box{
     display: flex;
     justify-content: space-between;
-    height: 370px;
+    height: 300px;
     margin-top: 80px;     
 }
 
 .box-dx{
-    flex-basis: 65%;
-    background-size: cover;
-    background-position: center ;   
+    flex-basis: 70%;
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;   
 }
 
 .study-group{
@@ -122,7 +122,7 @@ nav{
 
 
 .box-sx{
-    flex-basis: 30%;
+    flex-basis: 28%;
     line-height: 25px; 
     margin-top: 10px;   
 }
