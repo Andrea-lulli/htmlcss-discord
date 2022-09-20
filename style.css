@@ -84,9 +84,11 @@ nav{
 .button-mac, .button-discord{
     padding: 10px 10px;
     border-radius: 30px;
-    margin-top: 10%;
-    display: inline-block;
+    display: inline-block;    
+}
 
+.title  .button-mac,.button-discord{
+    margin-top: 10%;
 }
 
 .button-mac{
@@ -151,7 +153,7 @@ nav{
 }
 
 .box-column{
-    flex-basis: 30%;
+    
     justify-content: space-between; 
      
 }
@@ -177,38 +179,85 @@ nav{
     background-position: center ;
 }
 
-.footer-top{
-    height: 200px;
-    background-color: grey;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid yellow;
+.cl-bottom .button-mac{
+    background-color: rgb(166, 141, 200) ;
+    margin: 2% 0;
 }
 
-.footer-social {
-    flex-basis: 30%;
-    background-color: orange;
+.footer-top{
+    display: flex;
+    justify-content: space-between;
 }
+
+.footer-social, .footer-menu {
+    flex-basis: 20%;
+    
+    margin: 15px 0;
+    
+}
+
+.footer-social h3{
+    color: rgb(167, 65, 140);
+}
+
+.ita  img{
+    height: 15px;
+}
+
+.ita{
+    color: white;
+    margin: 8px 0;
+}
+
+.social svg{
+    height: 15px;
+}
+
+
 
 .footer-menu {
     flex-basis: 15%;
-    background-color: rgb(16, 109, 31);
+    
+   
 }
 
+.footer-menu li{
+   list-style: none;
+}
+
+
+.titolo{
+    color: rgb(167, 65, 140);
+}
+
+.lista{
+    color: white;
+}
+
+
+
 .footer-bottom{
-    background-color:red ;
-    height: 100px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(15, 15, 3);
+    border-top: 2px solid rgb(167, 65, 140);
 }
 
 .footer-logo, .footer-btn{
     flex-basis: 20%;
-    background-color: yellow;
+
 }
 
 footer{
-    background-color: gray;
+    background-color: rgb(50, 49, 49);
+}
+
+.footer-btn span{
+    border-radius: 30px;
+    background-color: rgb(167, 65, 140);
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 60%;
+    font-size: 12px;
+    padding: 5px 5px;
 }
 
