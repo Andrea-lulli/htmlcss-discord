@@ -240,6 +240,7 @@ nav{
     display: flex;
     justify-content: space-between;
     border-top: 2px solid rgb(167, 65, 140);
+    padding: 30px 0;
 }
 
 .footer-logo, .footer-btn{
