@@ -118,6 +118,7 @@ nav{
 
 .study-group{
     background-image: url(img/item1.svg);
+    background-position: left;
 }
 
 
@@ -133,10 +134,12 @@ nav{
 
 .voice{
     background-image: url(img/item2.svg);
+    background-position: right;
 }
 
 .fandom{
     background-image: url(img/item3.svg);
+    background-position: left;
 }
 
 .box-cl{
