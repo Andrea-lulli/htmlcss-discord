@@ -186,8 +186,13 @@ nav{
     padding: 10px;
 }
 
-
 /* section footer */
+footer{
+    background-color: rgb(50, 49, 49);
+}
+
+
+/* section footer top */
 .footer-top{
     display: flex;
     justify-content: space-between;
@@ -195,8 +200,7 @@ nav{
 }
 
 .footer-social, .footer-menu {
-    flex-basis: 20%;    Pronto a iniziare la tua avventura?
-
+    flex-basis: 20%;  
     margin: 15px 0;    
 }
 
@@ -239,6 +243,8 @@ nav{
     font-size: 12px;
 }
 
+
+/* section footer botton */
 .footer-bottom{
     display: flex;
     justify-content: space-between;
@@ -248,10 +254,6 @@ nav{
 
 .footer-logo, .footer-btn{
     flex-basis: 20%;
-}
-
-footer{
-    background-color: rgb(50, 49, 49);
 }
 
 .footer-btn span{
