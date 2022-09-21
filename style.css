@@ -109,14 +109,9 @@ nav{
 }
 
 .box-dx{
-    flex-basis: 70%;
+    flex-basis: 78%;
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.study-group{
-    background-image: url(img/item1.svg);
-    background-position: left;
 }
 
 .box-sx{
@@ -130,13 +125,11 @@ nav{
 }
 
 .voice{
-    background-image: url(img/item2.svg);
-    background-position: right;
+    text-align: right;
 }
 
-.fandom{
-    background-image: url(img/item3.svg);
-    background-position: left;
+.fandom, .study-group {
+    text-align: left;
 }
 
 
