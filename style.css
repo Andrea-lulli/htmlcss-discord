@@ -7,11 +7,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter&family=Kanit:ital@1&family=Roboto&family=Ubuntu&display=swap');
 
+
+/* section heder */
 header{
     background-image: url(img/jumbo.png);
     background-size: cover;
     background-position: center ;
-
 }
 
 .conteiner{
@@ -19,11 +20,12 @@ header{
     width: 80%;   
 }
 
+
+/* nav - section */
 nav{ 
     justify-content: space-between;
     display: flex;
-    padding-top: 20px;
-    
+    padding-top: 20px;    
 }
 
 .nav-lt-dx{   
@@ -42,20 +44,16 @@ nav{
 }
 
 
-
 .nav-cen{
     flex-basis: 55%;
     text-align: center;
-    font-size: 14px;
-
-       
+    font-size: 14px;       
 }
 
 .nav-cen  span{
     line-height: 30px;
     margin: 0px 5px;
-    color: white;
-    
+    color: white;    
 }
 
 .nav-lt-dx span{
@@ -66,12 +64,11 @@ nav{
     display: inline-block;
     margin-top: 5px;
     margin-left: 60%;
-    font-size: 14px;
-    
-    
-    
+    font-size: 14px;    
 }
 
+
+/* titolo e testo section */
 .title{
     text-align: center;
     width: 52%;
@@ -102,13 +99,13 @@ nav{
     color: black;
 }
     
-
 .button-discord{
     background-color: black;
     color: white;
 }
 
 
+/* main - section box */
 .box{
     display: flex;
     justify-content: space-between;
@@ -149,6 +146,8 @@ nav{
     background-position: left;
 }
 
+
+/* section quarto box - main */
 .box-cl{
     flex-direction: column;
     margin-top: 20px;
@@ -177,12 +176,10 @@ nav{
     width: 60%;
 }
 
-
-
 .cl-center img{
-    width: 70%;
-    
+    width: 70%;    
 }
+
 .cl-center{
     text-align: center;
 }
@@ -201,6 +198,8 @@ nav{
     padding: 10px;
 }
 
+
+/* section footer */
 .footer-top{
     display: flex;
     justify-content: space-between;
@@ -261,7 +260,6 @@ nav{
 
 .footer-logo, .footer-btn{
     flex-basis: 20%;
-
 }
 
 footer{
