@@ -124,12 +124,12 @@ nav{
     order: 2;
 }
 
-.voice{
+.voice img{
     text-align: right;
     width: 100%;
 }
 
-.fandom, .study-group {
+.fandom img, .study-group img {
     text-align: left;
     width: 100%;
 }
