@@ -25,7 +25,8 @@ header{
 nav{ 
     justify-content: space-between;
     display: flex;
-    padding-top: 20px;    
+    padding-top: 20px;
+    align-items: center;    
 }
 
 .nav-lt-dx{   
@@ -34,13 +35,11 @@ nav{
 
 .nav-lt-sx{   
     flex-basis: 20%;
-    background-size: 10px;
-    margin: 4px 0 0 0;
+    background-size: 10px;    
 }
 
 .nav-lt-sx img{
-    width: 50%;
-   
+    width: 50%;   
 }
 
 
@@ -51,20 +50,17 @@ nav{
 }
 
 .nav-cen  span{
-    line-height: 30px;
     margin: 0px 5px;
     color: white;    
 }
 
-.nav-lt-dx span{
+.nav-lt-dx button{
     padding: 5px 6px;
     border-radius: 30px;
-    text-align: right;
-    background-color: white;
-    display: inline-block;
-    margin-top: 5px;
+    background-color: white;    
     margin-left: 60%;
-    font-size: 14px;    
+    font-size: 14px; 
+    border: none;   
 }
 
 
