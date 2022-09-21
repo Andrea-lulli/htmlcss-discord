@@ -126,10 +126,12 @@ nav{
 
 .voice{
     text-align: right;
+    width: 100%;
 }
 
 .fandom, .study-group {
     text-align: left;
+    width: 100%;
 }
 
 
